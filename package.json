@@ -1,5 +1,5 @@
 {
-    "name": "ersrealtime-es6",
+    "name": "ersrealtime",
     "version": "1.0.1",
     "description": "Client helper library to connect to the realtime server",
     "main": "src/realtime_client.module.js",
