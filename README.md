@@ -33,4 +33,6 @@ EXAMPLE
 NOTES
 =====
 
-* there currently isn't a way to 
+* there currently isn't a way to clean up connect and disconnect listeners, so
+  the best option here is to create only one of each and route your application
+  around that.

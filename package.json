@@ -1,0 +1,24 @@
+{
+    "name": "ersrealtime-es6",
+    "version": "1.0.1",
+    "description": "Client helper library to connect to the realtime server",
+    "main": "src/realtime_client.module.js",
+    "scripts": {
+        "test": "npm run build && mocha",
+        "build": "rollup src/realtime_client.module.js --file dist/realtime_client.js --format cjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eventrentalsystems/ersrealtime-es6.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eventrentalsystems/ersrealtime-es6/issues"
+    },
+    "homepage": "https://github.com/eventrentalsystems/ersrealtime-es6#readme",
+    "devDependencies": {
+        "mocha": "^8.4.0",
+        "rollup": "^2.50.0"
+    }
+}
